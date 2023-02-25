@@ -19,7 +19,7 @@ this.operation = undefined
     }
     appendNumber(number){
         if(number==='.' & this.currentOperand.includes('.')) return
-        if(number==='π'){ this.currentOperand = Math.PI}
+        
         if(number==='x²'){ this.currentOperand = this.currentOperand * this.currentOperand  }
        
         
