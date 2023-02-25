@@ -29,7 +29,7 @@ body {
     border-width: 0.3vw;
     outline: none;
     background: rgb(239, 160, 13);
-    border-radius: 50%;
+    border-radius: 10%;
     
 }
 .calculator-grid>button:hover {
