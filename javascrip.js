@@ -63,7 +63,7 @@ switch (this.operation){
         computation = prev / current
         break
 
-       case 'x²': computation = Math.pow(prev, 2) break
+       case 'x²': computation = Math.pow(prev, current) break
       
 
       
