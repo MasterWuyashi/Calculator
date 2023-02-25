@@ -22,7 +22,7 @@ this.operation = undefined
         
         if(number==='x²'){ this.currentOperand = this.currentOperand * this.currentOperand  }
        
-        
+        if(number==='π'){ this.currentOperand = Math.PI}
         
         this.currentOperand = this.currentOperand.toString() + number.toString()
 
@@ -63,7 +63,7 @@ switch (this.operation){
         computation = prev / current
         break
 
-       case 'π': computation = prev * prev break
+       case 'x²': computation = Math.pow(prev, 2) break
       
 
       
